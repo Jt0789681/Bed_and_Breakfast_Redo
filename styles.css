@@ -1,0 +1,66 @@
+.navbar-nav {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: gray;
+}
+
+.navbar-nav a:hover {
+  background: darkgray;
+}
+
+.container {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container h1 , h2 {
+  color: #4cc9f0;
+}
+
+.row {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.amenities {
+  background-image: url("images/background.png");
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.amenities li {
+  list-style: none;
+}
+
+.bform {
+  margin-left: 3em;
+  width: 65%;
+}
+
+.formcol {
+  width: 60%;
+}
+
+.names {
+  margin-left: 3em;
+}
+content {
+  text-align: center;
+}
+
+content h1 {
+  color: #4cc9f0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  background: gray;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
